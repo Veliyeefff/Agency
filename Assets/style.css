@@ -1,0 +1,558 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(./img/headerr-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    background-color: #21252900;
+    width: 100%;
+}
+
+header .navbar img{
+    width: 250px;
+    padding-left: 80px;
+    cursor: pointer;
+}
+
+header .navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 80px;
+}
+
+header .navbar ul li {
+    padding-left: 30px;
+}
+
+header .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.2s;
+
+}
+
+header .navbar ul li a:hover{
+    color:#FFC800;
+}
+
+
+header .section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 170px;
+}
+
+header .section h2{
+    font-family: 'Roboto-Slab' , sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+header .section h1{
+    font-family: 'Montserrat';
+    font-size: 4.5rem;
+    margin-top:20px ;
+    margin-bottom: 50px;
+}
+
+header .section button{
+    background-color: #FFC800;
+    padding: 24px 40px;
+    color: white;
+    font-family:'Montserrat' ,sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+header .section button:hover{
+    background-color: #d6a802;
+}
+
+
+.serv{
+    margin: 60px 90px;
+    padding: 50px 0px;
+}
+
+section .text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0px;
+}
+
+section .text1 h2{
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+section .text1 p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif;
+    font-style: italic;
+    color: #6c757d;
+}
+
+section .services{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .services .service{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+section .services .service i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #FFC800;
+    font-size: 60px;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+}
+
+section .services .service h4{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
+section .services .service p{
+    color: #6c757d;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+.poster{
+    background-color: #f8f9fa;
+    padding: 90px 0px;
+}
+
+.poster .port{
+    text-align: center;
+
+}
+
+.poster .port h2{
+    font-family: 'Montserrat';
+    font-size: 2.5rem ;
+    letter-spacing:1px ;
+    margin-bottom: 10px;
+}
+
+.poster .port p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif;
+    font-style: italic;
+    color: #6c757d;
+    margin-bottom: 60px;
+}
+
+.poster .cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px 30px;
+}
+
+.poster .cards .card{
+    width: 415px;
+    height: 370px;
+    margin-bottom: 30px;
+}
+
+.poster .cards .card .image{
+    width: 415px;
+    height: 311px;
+    position: relative;
+    background-color: #ffc80000;
+    cursor: pointer;
+}
+
+.poster .cards .card .image img{
+    width: 100%;
+}
+
+.poster .cards .card .image i{
+    position: absolute;
+    color: white;
+    top: 115px;
+    right: 172px;
+    font-size: 5rem;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.poster .cards .card .text2{
+    background-color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.poster .cards .card .text2 h2{
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.poster .cards .card .text2 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #6c757d;
+
+}
+
+.poster .cards .card .image:hover{
+    background-color: #FFC800;
+}
+
+.poster .cards .card .image:hover img{
+    opacity: 0.1;
+}
+
+.poster .cards .card .image:hover i{
+    opacity: 1;
+}
+
+
+
+
+.abouts{
+    padding: 90px 0px;
+}
+.abouts .about h2{
+    font-family: 'Montserrat';
+    font-size: 2.5rem ;
+    letter-spacing:1px ;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.abouts .about p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif;
+    font-style: italic;
+    color: #6c757d;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.photos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.photos .photo{
+    display: flex;
+    align-items: center;
+}
+
+.photos .photo1{
+    justify-content:flex-start ;
+    padding-left: 280px;
+    text-align: end;
+}
+
+
+.photos .photo2{
+    justify-content: flex-end;
+    padding-right: 280px;
+    text-align: start;
+}
+
+.photo3{
+    justify-content: center;
+}
+
+.about-image{
+    width: 156px;
+    height: 156px;
+    background-color: #e6e6e7;
+    border-radius: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 0px 30px 0px 30px;
+}
+
+ .photos span{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 1px;
+    height: 100px;
+    background-color: #a1a8ae;
+
+}
+.photo3 .about-image .be{
+    background-color: #FFC800;
+    width: 100%;
+    border-radius: 100%;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    
+}
+.photo3 .about-image .be h4{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.about-image img{
+    width: 100%;
+    border: 1px solid #FFC800;
+    border-radius: 100%;
+    margin: 6px;
+}
+
+
+.photos h4{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    line-height: 40px;
+
+}
+
+.photos p{
+    font-family: 'Roboto-Slab';
+    color: #6c757d;
+    line-height: 25px;
+    margin: 0 !important; 
+
+}
+
+.teams{
+    background-color: #f8f9fa;
+    padding: 90px;
+}
+
+.teams .team{
+    text-align: center;
+}
+
+
+.teams .team h2{
+    font-family: 'Montserrat';
+    font-size: 2.5rem ;
+    letter-spacing:1px ;
+    margin-bottom: 10px;
+}
+
+.teams .team p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif;
+    font-style: italic;
+    color: #6c757d;
+    margin-bottom: 60px;
+}
+
+.teams .works{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.teams .works .work .work-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 208px;
+    height: 208px;
+    background-color: #cbcdd0;
+    border-radius: 100%;
+}
+
+.teams .works .work .work-img img{
+    width: 100%;
+    border-radius: 100%;
+    padding: 7px;
+}
+
+.teams .works .work {
+    text-align: center;
+}
+
+.teams .works .work h4{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    margin: 20px 0px 10px 0px;
+}
+
+.teams .works .work p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+
+.teams .works .work i{
+    color: white;  
+    background-color: black;
+    padding: 15px;
+    border-radius: 100%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+.teams .text4 p{
+    margin-top: 40px;
+    padding: 0px 270px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #6c757d;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-family:'Roboto-Slab',serif;
+}
+
+.medias{
+    margin: 60px 90px;
+}
+
+.medias .media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.medias .media  img{
+    width: 200px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.contacts{
+    background-image: url(./img/map-image.png);
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 90px 0px;
+    color: white;
+}
+.contacts .contact h2{
+    font-family: 'Montserrat';
+    font-size: 2.5rem ;
+    letter-spacing:1px ;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contacts .contact p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif;
+    font-style: italic;
+    color: #6c757d;
+    margin-bottom: 60px;
+}
+
+.contacts .inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 130px;
+}
+
+.contacts .inputs .inp .name{
+    width: 594px;
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #a1a8ae;
+}
+
+.contacts .inputs .msg{
+    width: 594px;
+    height: 240px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #a1a8ae;
+}
+
+.contacts button{
+    background-color: #FFC800;
+    border: 0px;
+    color: white;
+    padding: 20px 30px;
+    font-size: 1.3rem;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+    font-family:'Montserrat';
+}
+
+footer .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 38px;
+    color: white;  
+    background-color: black;
+    border-radius: 100%;
+    padding: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+footer .terms a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+
+
+
+
+
