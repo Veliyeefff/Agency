@@ -184,6 +184,7 @@ section .services .service p{
     align-items: center;
     justify-content: center;
     gap: 50px 30px;
+    padding: 0px 100px 0px 100px;
 }
 
 .poster .cards .card{
@@ -281,15 +282,15 @@ section .services .service p{
 }
 
 .photos .photo1{
-    justify-content:flex-start ;
-    padding-left: 280px;
+    justify-content:center ;
+    margin-right: 20%;
     text-align: end;
 }
 
 
 .photos .photo2{
-    justify-content: flex-end;
-    padding-right: 280px;
+    justify-content: center;
+    margin-left: 20%;
     text-align: start;
 }
 
@@ -551,8 +552,3 @@ footer .terms a{
     margin-left: 20px;
     color: black;
 }
-
-
-
-
-
